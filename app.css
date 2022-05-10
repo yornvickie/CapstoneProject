@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+    background-color: #249f9c;
+    margin: auto;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+#nav {
+    padding: 13px;
+    background-color: #f44786;
+    border-bottom: 3px solid white;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#buttons {
+    text-decoration: none;
+    color: white;
+    text-shadow: 5px 5px 4px #037a76;
+    background-color: #249f9c;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.406);
+}
+
+a:hover {
+    font-size: 23px;
+    cursor: pointer;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#showcase {
+    margin-top: 250px;
+    text-align: center;
+}
+
+#headerFont {
+    max-width: 100%;
+    height: auto;
+}
+#showcase h2 {
+    margin-top: 100px;
+}
+
+/* dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-shadow: 5px 5px 4px #037a76;
+    background-color: #249f9c;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.406);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #249f9c;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 14px;
+    color: black;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Boxes */
+  .container {
+      display: flex;
+      margin-bottom: 75px;
+  }
+
+  .box {
+      padding: 25px;
+      width: 30%;
+  }
+
+footer {
+    padding-top: 10px;
+    background-color: #f44786;
+    
+    border-bottom: 30px solid #f44786;
+}
+
+footer > h2 {
+    text-align: center;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+i {
+    font-size: 50px;
+}
+
+footer > div > div > a {
+    padding: 25px;
+}
+
+.build {
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    text-align: center;
+}
+
